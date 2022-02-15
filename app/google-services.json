@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589168672462",
+    "project_id": "mmcash-b2867",
+    "storage_bucket": "mmcash-b2867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589168672462:android:fdfb06206d896533811a9f",
+        "android_client_info": {
+          "package_name": "com.example.mmcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589168672462-9uis48mkjl1d58eloaaogh22l7n9k1l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB98J_ojaYlbkjZF7Op1F3Ru-SVVGoTKQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589168672462-9uis48mkjl1d58eloaaogh22l7n9k1l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
