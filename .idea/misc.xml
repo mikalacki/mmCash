@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/milos/StudioProjects/mmCash/app/src/main/res/drawable/circle.xml" value="0.1325" />
+        <entry key="..\:/Users/milos/StudioProjects/mmCash/app/src/main/res/drawable/selector_button.xml" value="0.1" />
         <entry key="..\:/Users/milos/StudioProjects/mmCash/app/src/main/res/drawable/selector_generic.xml" value="0.1325" />
         <entry key="..\:/Users/milos/StudioProjects/mmCash/app/src/main/res/layout/activity_home.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/milos/StudioProjects/mmCash/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/milos/StudioProjects/mmCash/app/src/main/res/layout/dialog_chose_account.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>

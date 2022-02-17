@@ -21,21 +21,43 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnPlayGame"
+        android:id="@+id/btnOption1"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="120dp"
         android:layout_margin="10dp"
-        android:text="@string/play_game"
+        android:text="Option 1"
         android:textSize="30sp"
         android:enabled="true"
         style="@style/StyleButtonGeneric"
         app:layout_constraintTop_toBottomOf="@id/title" />
 
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:text="Option 1"
+        android:textSize="30sp"
+        android:enabled="true"
+        style="@style/StyleButtonGeneric"
+        app:layout_constraintTop_toBottomOf="@id/btnOption1" />
+
+    <Button
+        android:id="@+id/btnOption3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:text="Option 1"
+        android:textSize="30sp"
+        android:enabled="true"
+        style="@style/StyleButtonGeneric"
+        app:layout_constraintTop_toBottomOf="@id/btnOption2" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_background"
+        app:backgroundTint="@color/purple_500"
         android:src="@drawable/ic_baseline_settings_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

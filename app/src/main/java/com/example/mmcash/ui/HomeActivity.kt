@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.mmcash.R
 import com.example.mmcash.databinding.ActivityHomeBinding
 import com.google.firebase.auth.FirebaseAuth
+import custom.ChooseAccountDialog
 
 class HomeActivity : AppCompatActivity() {
 
@@ -26,7 +27,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         firebaseAuth = FirebaseAuth.getInstance()
-        //checkUser()
+        checkUser()
 
         actionBar = supportActionBar!!
         actionBar.title = "Home"
@@ -38,20 +39,23 @@ class HomeActivity : AppCompatActivity() {
             interpolator = AccelerateDecelerateInterpolator()
         }
 
-       /* binding.btnSettings.setOnClickListener {
-            binding.btnSettings.isVisible = false
-            binding.circle.isVisible = true
-            binding.circle.startAnimation(animation){
+        val dialog = ChooseAccountDialog(this)
 
-                binding.root.setBackgroundColor(ContextCompat.getColor(this, R.color.colorPrimary))
-                binding.circle.isVisible = false
-                binding.btnPlayGame.isVisible = false
-                binding.title.isVisible = false
-                supportFragmentManager.beginTransaction()
-                    .add(android.R.id.content, SettingsFragment()).commit()
+        binding.btnOption1.setOnClickListener {
+            dialog.show()
+            dialog.setOnResultListener {
+                if (it){
+                    startActivity(Intent(this, Balance::class.java))
+                    finish()
+                } else {
+                    startActivity(Intent(this, Balance::class.java))
+                    finish()
+                }
+
             }
 
-        }*/
+        }
+
     }
 
     private fun checkUser() {
